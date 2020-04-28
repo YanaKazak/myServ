@@ -5,5 +5,21 @@
     "database": "heroku_30f35014a21c33f",
     "host": "eu-cdbr-west-03.cleardb.net",
     "dialect": "mysql"
+  },
+  "test": {
+    "username": "bcab6f735f460c",
+    "password": "bc8dd35e",
+    "database": "heroku_30f35014a21c33f_test",
+    "host": "eu-cdbr-west-03.cleardb.net",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "bcab6f735f460c",
+    "password": "bc8dd35e",
+    "database": "heroku_30f35014a21c33f_production",
+    "host": "eu-cdbr-west-03.cleardb.net",
+    "dialect": "mysql",
+    "operatorsAliases": false
   }
 }
