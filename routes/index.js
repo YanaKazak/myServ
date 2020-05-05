@@ -43,6 +43,7 @@ router.get('/get-by-id', async (req, res, next) => {
 router.post('/user', async (req, res, next) => {
   try {
     const data = req.query;
+    console.log(data);
     const user = await Models.test.create({
       first_name: data.firstname,
       last_name: data.lastname
